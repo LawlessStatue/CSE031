@@ -1,0 +1,91 @@
+Group Names: Chandrahas Kantheti, Aryaan Mishra, Parthib Roy
+
+TPS 1:
+
+	Chandrahas:
+	https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/
+	https://www.hostinger.com/tutorials/linux-commands
+	https://www.lifewire.com/how-to-open-command-prompt-2618089
+
+	Aryaan:
+	https://support.apple.com/guide/terminal/execute-commands-and-run-tools-apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac
+	https://www.digitalocean.com/community/tutorials/linux-commands
+	https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
+
+	Parthib:
+	https://ftp-mac.com/mac-terminal-commands.html
+	https://www.linux.org
+	https://www.freecodecamp.org/news/command-line-commands-cli-tutorial/
+
+TPS 2:
+
+	1) Search for the terminal/command Prompt/cmd for your device(Windows, Mac, Linux)
+ 	   a) You can open more than one terminal and you can do so on Mac/Windows/Linux by accessing the file and clicking New Window
+ 	   b) If you are accessing more than 1 directory at the same time interval, opening up multiple terminals may be recommended.
+	2) The ls command is universal for the three main OS systems.
+
+	3) First determine where your current address is, and then use cd /Desktop
+
+	4) cd /Desktop
+	   mkdir CSE31
+
+TPS 3:
+
+	1)
+
+	Chandrahas:
+	https://linuxconfig.org/how-to-install-gcc-the-c-compiler-on-ubuntu-22-04-lts-jammy-jellyfish-linux
+	https://stackoverflow.com/questions/12754355/gcc-in-mac-vs-gcc-in-linux
+
+	Aryaan:
+	https://www.geeksforgeeks.org/gcc-command-in-linux-with-examples/
+	https://www.scaler.com/topics/gcc-command-in-linux/
+
+	Parthib:
+	https://www.rapidtables.com/code/linux/gcc.html
+	https://unix.stackexchange.com/questions/207741/are-there-obvious-differences-between-learning-c-on-osx-and-learning-c-on-ubuntu
+
+	2) Shared
+
+	3) gcc main.c
+
+	4) After running the gcc main.c command, it will determine if nay bugs were present, if none, then it will execute file
+
+	5) - c flag is for compiling
+
+	6) -g flag debugs in GCC
+
+	7) mv command for renaming
+
+	8) it makes an executable usually titled a.out/a.exe
+
+	9) ./a.out or ./a.exe
+
+TPS 4:
+
+	Initialize odd, even, evenCount, oddCount to 0
+
+	While True:
+
+    		Prompt the user to enter a number
+    		Read the input number
+
+    		If the number is 0
+			break the loop
+
+    		Calculate the sum of digits in the number
+
+    		If the sum of digits is even:
+        		Add the number to even
+        		Increment evenCount by 1
+    		Else:
+        		Add the number to odd
+        		Increment oddCount by 1
+
+	If evenCount is not 0
+		calculate avgEven as even divided by evenCount
+
+	If oddCount is not 0 
+		calculate avgOdd as odd divided by oddCount
+
+	Print avgEven and avgOdd
