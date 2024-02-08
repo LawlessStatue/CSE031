@@ -1,0 +1,46 @@
+Group: Aryaan Mishra
+
+TPS 1:
+
+	2. Aryaan:
+		1. https://developers.redhat.com/blog/2021/04/30/the-gdb-developers-gnu-debugger-tutorial-part-1-getting-started-with-the-debugger
+		2. https://www.gdbtutorial.com/
+		3. https://linuxconfig.org/gdb-debugging-tutorial-for-beginners
+
+TPS 2:
+
+	1. 'gcc -g punishment.c -o punish'
+	2. 'gdb punish'
+	3. 'run'
+	4. Breakpoints causes the debugger to puase the execution at a specific line. to run it use command 'break [line number]'.
+	5. To run the program line by line we have to use the 'next' command.
+	6. We have to use 'print [variable]' to see the value of the variable while debugging.
+	7. 'continue' cmd let's you finish the program's run.
+	8. to exit we use 'quit'
+
+TPS 3:
+
+	1. Five variables are declared: x, y, px, py, and arr. px and py are int pointers.
+	2. The values of x, y, and arr[0] are undefined if you run the program without initializing these variables. 
+	   They could be any value that was previously stored at those memory locations. You can insert printf statements to display their values like so:
+	   'printf("x: %d, y: %d, arr[0]: %d\n", x, y, arr[0]);'
+	3. int x = 0;
+	   int y = 0;
+	   int arr[10] = {0};
+	4. printf("Address of x: %p\n", (void *)&x);
+	   printf("Address of y: %p\n", (void *)&y);
+	5. px = &x;
+	   py = &y;
+
+	   printf("Value of px: %p, Address of px: %p\n", (void *)px, (void *)&px);
+	   printf("Value of py: %p, Address of py: %p\n", (void *)py, (void *)&py);
+
+	6. for(int i = 0; i < 10; i++) {
+    		printf("%d ", *(arr + i));
+	   }
+	   printf("\n");
+  	7. printf("%p == %p\n", (void *)arr, (void *)&arr[0]);
+	8. printf("Address of arr: %p\n", (void *)arr);
+
+
+
