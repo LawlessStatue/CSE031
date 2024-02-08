@@ -6,6 +6,10 @@ TPS 1:
 		1. https://developers.redhat.com/blog/2021/04/30/the-gdb-developers-gnu-debugger-tutorial-part-1-getting-started-with-the-debugger
 		2. https://www.gdbtutorial.com/
 		3. https://linuxconfig.org/gdb-debugging-tutorial-for-beginners
+	3. Chandrahas:
+		1. https://www.sourceware.org/gdb/
+		2. https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf
+		3. https://www.cs.cmu.edu/~gilpin/tutorial/
 
 TPS 2:
 
